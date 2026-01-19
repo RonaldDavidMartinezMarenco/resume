@@ -26,58 +26,165 @@
 
 % Professional Summary
 \subsection*{Summary}
-Software Engineering student with some experience through personal and academic projects, 
-currently building and strengthening skills in Machine Learning, backend development, and 
-web technologies. Familiar with Python for data analysis, basic ML models, automation, and 
-AI-driven prototypes such as chatbots and introductory computer vision systems using YOLO. 
-Working knowledge of JavaScript, HTML, and CSS for creating simple web interfaces and 
-connecting them with backend logic. Used to experimenting, learning by doing, and turning 
-ideas into functional (sometimes imperfect) prototypes. Actively interested in expanding 
-knowledge in areas like applied AI, intelligent systems, data-driven applications, and 
-real-world software problem solving. Motivated, curious, and adaptable, with a 
-clear focus on continuous learning and technical growth.
+Software Engineering Student (3rd year) passionate about the tech world, artificial intelligence, 
+and eventually becoming an innovator. with experience in Python, Machine Learning, and backend
+development through academic and personal projects. Developed AI-driven prototypes incluiding chatbots
+and computer vision systems using YOLO and Tensorflow. Familiar with building REST APIs using FastAPI,
+and creating basic web interfaces with JavaScript, HTML, CSS, and React. Strong academic background and focused 
+on growing skills in applied AI and data-driven systems.
 
 % Work Experience
-\subsection*{Work Experience}
+\subsection*{Projects}
 
 \subsubsection*{%
-  \textbf{Frontend Developer (Freelance)} - \href{https://fundacion-remedios.vercel.app/}{Landing Page Project}
+  \textbf{Data Viento: Weather Climate Insights Platform} - \href{https://dataviento.voltr.org//}{DataViento Webpage}
   \hfill
-  \textit{December 2024}
+  \textit{October 2025 - Present}
 }
-
+Python, FastAPI, JavaScript, HTML, CSS, MySQL, Docker, OpenMeteo API, Cron Automation, Gemini LLM
 \begin{itemize}
-  \item Designed and developed a responsive landing page using React.
-  \item Implemented reusable components and clean UI structure.
-  \item Delivered the project according to client requirements.
+
+  \item Developed a full-stack web application that collects, stores, 
+        and visualizes climate data from the OpenMeteo API, providing 
+        interactive dashboards and AI-assisted explanations based on the 
+        user's selected city.
+  \item Built backend services using FastAPI to consume weather data from
+        the OpenMeteo API and store structures time-series data in MySQL,
+        ensuring efficient retrieval and analysis.
+  \item Implemented frontend intercafe with HTML, CSS,JavaScript and chart.js library to render a
+        dashboard that displays weather variables and trend charts  based on the user's 
+        selected city.
+  \item Developed an Gemini LLM-powered chatbot to explain weather variables, chart
+        interpretations, and climate impacts applying prompt engineering to 
+        improve contextual responses.
+  \item Automated data ingestion via Python Scripts and Linux cron jobs, updating
+        database on a schedule without manual intervetion.
+  \item Docker environment for containerized deployment and Git version control to
+        manage the full project lifecycle collaboratively.
+
+\end{itemize}
+
+\subsubsection*{%
+  \textbf{Hunting Exoplanets NASA-Hackathon} - \href{https://exoplanet-app-730407208895.us-central1.run.app/}{Hunting Exoplanet Webpage}
+  \hfill
+  \textit{October 2025}
+}
+Python, Tensorflow, Google Colab, Streamlit.
+\begin{itemize}
+  \item Developed a predictive web application for exoplanet classification,
+         allowing users to input planetary features or upload CSV files for batch 
+         prediction using an interactive Streamlit interface.
+  \item Cleaned and preprocessed astronomical datasets in Google Colab, handling missing 
+        values using median imputation and performing correlation analysis to understand 
+        feature relationships.
+  \item Built and evaluated multiple ensemble machine learning models (Voting Classifier combining RandomForest, LGBM, XGBoost) within a 
+        TensorFlow-compatible architecture to ensure robust prediction performance.
+  \item Achieved approximately 87\% accuracy on the trained dataset.
+      
+\end{itemize}
+\subsubsection*{%
+  \textbf{Educational AI Chatbot with RAG and Voice Interface} - \href{https://github.com/RonaldDavidMartinezMarenco/Mini-Chatbot}{Github Repository}
+  \hfill
+  \textit{April 2025 - June 2025}
+}
+Java, Spring Boot, Spring AI, MySQL, HTML, Tailwind CSS, JavaScript, Gemini (Vertex AI), ElevenLabs, Jina AI Embeddings
+\begin{itemize}
+  \item Developed an educational chatbot backend using Spring Boot and Spring AI, 
+        supporting conversational memory and intent-aware responses.
+  \item Integrated generative responses via Gemini (Vertex AI) and added text-to-speech (TTS)
+        functionality using ElevenLabs for voice interaction.
+  \item Implemented Retrieval-Augmented Generation (RAG) by extracting text from educational
+        documents using Apache Tika and generating embeddings with Jina AI, enabling document-based 
+        question answering.
+  \item Built a lightweight frontend with Tailwind CSS and persisted conversation and metadata in a 
+        MySQL database.\\
+\end{itemize}
+
+\subsubsection*{%
+  \textbf{Colombian License Recognition} - \href{https://github.com/RonaldDavidMartinezMarenco/license_recognition}{Github Repository}
+  \hfill
+  \textit{January 2025 - February 2025}
+}
+Python, YOLOv11n, OpenCV, EasyOCR, Computer Vision, CSV Data Pipelines
+\begin{itemize}
+  \item Developed a real-time license plate recognition system for Colombian 
+        plates using YOLOv11n to detect plates from images,videos, and live camera streams.
+  \item Integrated EasyOCR to extract license plate text as structured strings after image preprocessing.
+  \item Built an image processing pipeline with OpenCV, applying grayscale conversion, normalization, 
+        and standardization to improve OCR accuracy.
+  \item Designed a real-time data pipeline to capture detected plates, handle missing values, and 
+        append results dynamically to a CSV file.
+  \item Achieved approximately 98\% accuracy on the trained dataset through iterative training and evaluation.
+
+\end{itemize}
+\subsubsection*{%
+  \textbf{Fundacion Remedios de Manases Webpage (Freelance Work)} - \href{https://fundacion-remedios.vercel.app/}{Landing Page}
+  \hfill
+  \textit{November 2024}
+}
+React, JavaScript, HTML, CSS (Responsive Design)
+\begin{itemize}
+  \item Developed a responsive and dynamic website based on client requirements for clarity, 
+        accessibility, and lightweight design.
+  \item Implemented dynamic UI behavior using plain CSS, applying subtle hover transitions 
+        (scale and rotation effects) to enhance interactivity without overloading the interface.
+  \item Aligned the interface with the foundation's branding, ensuring consistency with logo, colors, 
+        and typography.
+  \item Designed a fully responsive layout, ensuring readability and usability across desktop and mobile
+        devices through custom CSS breakpoints.
+\end{itemize}
+\subsubsection*{%
+  \textbf{Sign Language Recognition App Using Machine Learning} - \href{https://bonga.unisimon.edu.co/server/api/core/bitstreams/83c0cc48-143b-40a7-b3c8-34bda57d3a5e/content}{Scientific article}
+  \hfill
+  \textit{March 2024 - Present}
+}
+Python, Tensorflow, Keras, Mediapipe Holistic, OpenCV, Numpy, LSTM / CNN Neural Networks
+\begin{itemize}
+  \item Developed a sign language recognition application using computer vision and deep 
+        learning to classify 10 Colombian sign gestures.
+  \item Created a custom dataset by recording and labeling sign language samples, then expanded
+        it using image and sequence augmentation techniques.
+  \item Extracted pose, hand, and facial landmarks with MediaPipe Holistic and standardized
+        input data before model training.
+  \item Trained an LSTM-based neural network using TensorFlow and Keras to model temporal 
+        gesture sequences.
+  \item Achieved approximately 95\% classification accuracy on the trained gesture set through iterative training and evaluation.
+
 \end{itemize}
 
 % Education
 \subsection*{Education}
-\subsubsection*{\textbf{B.Sc. in Systems Engineering} from Universidad Simon Bolivar, Colombia \hfill \textit{Status - In Progress}}
+\subsubsection*{\textbf{B.Sc. in Systems Engineering} from Universidad Simon Bolivar, Colombia \hfill \textit{In Progress - 5th Semester
+}}
 \begin{itemize}
   \item 1st Place in GPA - Systems Engineering Program \\
         GPA: 4.86 / 5.0
+  \item Active member of the Data Science research group.
+
+  \item Student representative for the systems engineering program.
 \end{itemize}
 
 %Honor and Awards
 \subsection*{Honor \& Awards}
 \begin{itemize}
-  \item NASA Space Apps Challenge - Global Nominee \\
-        Project: Hunting Exoplanets - Developed an AI-based solution for detection of exoplanets using Python, Tensorflow, Pandas, Streamlit. 
-  \item Speaker, International AI Conference - Impact of data on the sustainability of organizations. \\        
-        Talk: Development of an application for sign detection using machine learning algorithms.
-  \item Elite Researcher Recognition - Universidad Simon Bolivar
+  \item \textbf{NASA Space Apps Challenge - Global Nominee} \\
+        \textbf{Project}: Hunting Exoplanets - Developed an AI-based solution for detection of exoplanets using Python, Tensorflow, Pandas, Streamlit. 
+  \item \textbf{Elite Researcher Recognition}\\
         Awarded for academic research excellence.
+  \item \textbf{RedColsi Speaker at international conference}\\
+        Speaker for \textbf{Sign Language Recognition App Using Machine Learning}
+        
+  
   
 \end{itemize}
 % Skills
 \subsection*{Skills}
 \begin{itemize}
-  \item \textbf{Languages:} Python, JavaScript, SQL, HTML, CSS.
-  \item \textbf{Frameworks:} FastAPI, Flask, React.
+  \item \textbf{Languages:} Python, JavaScript, SQL.
+  \item \textbf{Web:} HTML, CSS, React.
+  \item \textbf{Backend:} FastAPI, Flask.
   \item \textbf{AI/Machine Learning:} Tensorflow, YOLO, NumPy, Pandas.
-  \item \textbf{Technologies:} MySQL, Docker, Github.
+  \item \textbf{Technologies:} MySQL, Docker, Git, Github.
 \end{itemize}
 
 % TODO: Projects section
